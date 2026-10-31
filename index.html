@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="个人介绍、技能、项目与联系方式。">
+  <title>蒋冬晴 | 个人主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="回到首页">冬晴<span>·</span></a>
+    <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#about">关于我</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">项目</a>
+      <a class="nav-contact" href="#contact">联系我 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> 你好，欢迎来到我的小小空间</p>
+        <h1>把好奇心，<br>变成 <span class="highlight">看得见的作品。</span></h1>
+        <p class="hero-description">我是蒋冬晴，一名正在学习设计与前端开发的创作者。喜欢把简单的想法，慢慢打磨成有温度的体验。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">看看我的作品 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">多了解我一点 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="带有装饰图形的个人头像区域">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="avatar-card">
+          <div class="avatar-face" aria-hidden="true">晴</div>
+          <span class="avatar-caption">慢慢来，也很棒 ✳</span>
+        </div>
+        <span class="sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+        <span class="floating-note">正在探索<br><strong>数字世界</strong></span>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> 向下探索</a>
+    </section>
+
+    <section class="about section-wrap section-block" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>关于我<span class="heading-mark">.</span></h2>
+      </div>
+      <div class="about-content">
+        <p class="about-lead">我相信，<span>每一次尝试</span>，都能让灵感离现实更近一点。</p>
+        <p class="body-copy">我是一名刚开始学习编程的初学者，正在学习网页设计与前端开发。这是我尝试制作的个人网站，也记录着我从零开始学习的过程。闲暇时，我喜欢旅游散心和打台球。</p>
+        <div class="about-facts">
+          <div><span class="fact-number">01</span><span>保持好奇</span></div>
+          <div><span class="fact-number">02</span><span>持续学习</span></div>
+          <div><span class="fact-number">03</span><span>认真创作</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-block" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">THINGS I’M LEARNING</p>
+        <h2>技能与兴趣<span class="heading-mark">.</span></h2>
+      </div>
+      <div class="skill-list">
+        <article class="skill-card"><span class="skill-icon">✳</span><div><h3>网页基础</h3><p>用 HTML 搭建结构，用 CSS 为页面添加样式。</p></div><span class="skill-level">学习中</span></article>
+        <article class="skill-card"><span class="skill-icon">⌘</span><div><h3>前端交互</h3><p>开始使用 JavaScript，让网页能够回应操作。</p></div><span class="skill-level">学习中</span></article>
+        <article class="skill-card"><span class="skill-icon">◒</span><div><h3>视觉与排版</h3><p>关注色彩、间距与细节，让信息更容易阅读。</p></div><span class="skill-level">持续练习</span></article>
+      </div>
+    </section>
+
+    <section class="projects section-wrap section-block" id="projects">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">PROJECTS I’M WORKING ON</p><h2>项目展示<span class="heading-mark">.</span></h2></div>
+        <p class="heading-note">把想法一步步变成实际项目。</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-autumn">
+          <div class="project-visual visual-autumn"><span class="visual-symbol" aria-hidden="true">🍂</span><span class="visual-caption">秋日 · 附近</span></div>
+          <div class="project-info"><div><p class="project-type">旅行推荐 · 项目</p><h3>附近秋景推荐</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          <p class="project-description">围绕附近的秋日风景，整理适合探索与出游的景点灵感。</p>
+        </article>
+        <article class="project-card project-commute">
+          <div class="project-visual visual-commute"><span class="route-label">京 <i>⇄</i> 秦</span><span class="visual-caption">通勤顺风车</span></div>
+          <div class="project-info"><div><p class="project-type">出行服务 · 项目</p><h3>京秦通勤顺风车信息快速匹配</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          <p class="project-description">聚焦京秦通勤场景，梳理顺风车信息与快速匹配需求。</p>
+        </article>
+        <article class="project-card project-marketing">
+          <div class="project-visual visual-marketing"><span class="marketing-sparkle" aria-hidden="true">✦</span><span class="marketing-title">发现目的地</span><span class="marketing-tag">值得打卡</span></div>
+          <div class="project-info"><div><p class="project-type">文旅推广 · 项目</p><h3>网红景点营销项目</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          <p class="project-description">围绕网红景点，探索内容策划与线上营销表达。</p>
+        </article>
+        <article class="project-card project-vibe">
+          <div class="project-visual visual-vibe"><div class="code-window"><span class="code-dots">● ● ●</span><span class="code-line code-line-long"></span><span class="code-line"></span><span class="code-line code-line-short"></span><span class="code-cursor">▍</span></div></div>
+          <div class="project-info"><div><p class="project-type">AI 辅助开发 · 项目</p><h3>Vibe Coding 开发项目</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          <p class="project-description">记录通过 Vibe Coding 思路，将创意逐步转化为作品的过程。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-decoration" aria-hidden="true">✳</div>
+      <p class="eyebrow">SAY HELLO</p>
+      <h2>好点子，值得<br>一起聊聊。</h2>
+      <p>如果你也喜欢创造与探索，欢迎给我写信。</p>
+      <a class="button button-light" href="mailto:6413@163.com">6413@163.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home">冬晴<span>·</span></a>
+    <p>用一点点好奇，搭建喜欢的生活。</p>
+    <span>© <span id="current-year"></span> 蒋冬晴</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
